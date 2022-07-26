@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 from object_detection import ObjectDetection
 from deep_sort.deep_sort import Deep
-#import torch
+import torch
 
 def detect(model, frame):
   '''Given results from yolov5, extract classs ids, scores and boxes as numpy array'''
